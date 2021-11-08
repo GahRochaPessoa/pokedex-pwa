@@ -1,0 +1,32 @@
+.main-container{
+    height:100%;
+
+    .app-content{
+        min-height: 550px;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+
+        .subtitle{
+            font-style: italic;
+            font-weight: bold;
+            color: #aaa;
+        }
+        .pokemon-card{
+            max-width: 400px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            .pokemon-image{
+                padding-top: 10px;
+                height: 300px;
+                width: 360px;
+                background-color: #eee;
+            }
+        }
+    }
+
+
+}
